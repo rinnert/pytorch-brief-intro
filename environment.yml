@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - numpy
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
