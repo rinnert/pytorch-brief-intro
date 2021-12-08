@@ -1,3 +1,4 @@
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.utils.data as utils_data
@@ -28,6 +29,8 @@ class LabeledDataset(utils_data.Dataset):
             xs.append(var_generator(event))
             ys.append(label_generator(event))
 
+        xs = np.array(xs)
+        ys = np.array(ys)
         self.xs = torch.tensor(xs)
         self.ys = torch.tensor(ys)
 
