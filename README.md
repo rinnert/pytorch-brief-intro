@@ -12,6 +12,7 @@ Alternatively, you can clone the repository. The dependencies are:
 
   - numpy
   - matplotlib
+  - scikit-learn
   - pytorch
 
 PyTorch [Installation Instructions](https://pytorch.org/).

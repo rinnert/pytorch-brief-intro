@@ -4,7 +4,7 @@ channels:
 dependencies:
   - numpy
   - matplotlib
-  - seaborn
+  - scikit-learn
   - cpuonly
   - pytorch
   - torchvision
