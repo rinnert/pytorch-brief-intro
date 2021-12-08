@@ -90,7 +90,7 @@ class ClassifierNN(nn.Module):
 
         return x
 
-    def train(self):
+    def train(self, mode=True):
         super(ClassifierNN, self).train()
         self.inference_mode = False
 
